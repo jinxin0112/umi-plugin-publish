@@ -1,0 +1,26 @@
+{
+  "name": "umi-plugin-umi-plugin-publish",
+  "version": "0.0.1",
+  "description": "publish project ",
+  "authors": {
+    "name": "jinxin0112",
+    "email": "m18508218948@163.com"
+  },
+  "repository": "/umi-plugin-publish",
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  "scripts": {
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "scp": "^0.0.3"
+  }
+}
