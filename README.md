@@ -1,4 +1,4 @@
-# umi-plugin-umi-plugin-publish
+# umi-plugin-publish
 
 [![NPM version](https://img.shields.io/npm/v/umi-plugin-umi-plugin-publish.svg?style=flat)](https://npmjs.org/package/umi-plugin-umi-plugin-publish)
 [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-umi-plugin-publish.svg?style=flat)](https://npmjs.org/package/umi-plugin-umi-plugin-publish)
@@ -12,7 +12,7 @@ Configure in `.umirc.js`,
 ```js
 export default {
   plugins: [
-    ['umi-plugin-umi-plugin-publish', options],
+    ['umi-plugin-publish', options],
   ],
 }
 ```
